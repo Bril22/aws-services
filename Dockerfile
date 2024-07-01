@@ -1,6 +1,4 @@
-FROM --platform=linux/amd64 alpine:latest
-FROM public.ecr.aws/docker/library/node:16
-
+FROM node:18-bullseye
 WORKDIR /api-server
 
 COPY . .
