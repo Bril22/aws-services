@@ -1,3 +1,4 @@
+FROM --platform=linux/amd64 alpine:latest
 FROM public.ecr.aws/docker/library/node:16
 
 WORKDIR /api-server
