@@ -24,3 +24,19 @@ services:
 
 networks:
   briltest:
+# version: '3.8'
+
+# services:
+#   api:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     ports:
+#       - "3333:3333"
+#     volumes:
+#       - ./:/nest-server
+#       - /nest-server/node_modules
+#     environment:
+#       - JWT_REFRESH_SECRET=jwt-refresh-secret
+#       - JWT_SECRET=jwt-secret
+#       - DATABASE_URL=postgresql://postgresql123:briltest@rest-api-postgres.c92esiq02by3.ap-southeast-1.rds.amazonaws.com:5436/nest?schema=public
