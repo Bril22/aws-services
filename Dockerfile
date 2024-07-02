@@ -1,6 +1,6 @@
 FROM --platform=linux/arm64 node:18-bullseye
 
-WORKDIR /nest-server
+WORKDIR /api-server
 
 COPY package*.json ./
 RUN npm install
